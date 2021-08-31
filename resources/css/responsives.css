@@ -1,0 +1,131 @@
+@media (max-width: 1199px) {
+    .title-size {
+        font-size: 6rem;
+    }
+    
+    h2.title-size {
+        font-size: 3.5rem;
+    }
+
+    .txt-size {
+        font-size: 1.4rem;
+    }
+
+    .margin-lr-3r {
+        margin: 0 3rem;
+    }
+
+    .translateX-left {
+        transform: translateX(2rem);
+    }
+
+    .translateX-right {
+        transform: translateX(-2rem);
+    }
+
+    .img-header,
+    .video {
+        width: 45rem;
+    }
+
+    .learn-yoga-img {
+        width: 40rem;
+    }
+
+    .galery-item {
+        width: 30rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .title-size {
+        font-size: 5rem;
+    }
+
+    .margin-lg {
+        margin: 3rem 0 5rem 0;
+    }
+
+    .img-header {
+        width: 30rem;
+    }
+
+    #program {
+        margin-top: 5rem;
+    }
+
+    .galery-item {
+        width: 50rem;
+        height: 70rem;
+    }
+
+    .margin-tb-2r {
+        margin: 2rem 0;
+    }
+
+    .translateX-left-991px {
+        transform: translateX(3rem);
+    }
+
+    .fa-bars,
+    .fa-times {
+        display: block;
+        cursor: pointer;
+    }
+
+    .fa-times {
+        position: absolute;
+        top: 3rem;
+        right: 3rem;
+        font-size: 5rem;
+        color: var(--white-color);
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+
+    .mobile-nav {
+        text-align: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: block;
+        background-color: rgba(230, 200, 195, 0.95);
+        padding: 8rem 3rem 0 3rem;
+        width: 100vw;
+        height: 100vh;
+        z-index: 999;
+        animation: rightToLeft 0.7s ease-in-out;
+    }
+
+    .nav-item a {
+        color: var(--white-color);
+        font-size: 4rem;
+        display: block;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 564px) {
+    .galery-item {
+        width: 40rem;
+        height: 60rem;
+    }
+}
+
+@keyframes rightToLeft {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
